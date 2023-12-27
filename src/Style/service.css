@@ -1,0 +1,42 @@
+.service-hero {
+  margin-top: 65px;
+  img {
+    display: flex;
+    width: 100%;
+    height: 870px;
+    flex: 100;
+    z-index: 100;
+  }
+
+  .service-btn {
+    width: 215px;
+    height: 60px;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 48px;
+    background: #ff717f;
+    border: none;
+    top: -427px;
+    left: 149px;
+    color: #fff;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 10px;
+  }
+
+  .service-btn:active {
+    background-color: #ff717f;
+  }
+
+}
+
+#circle {
+  position: relative;
+  top: -60px;
+  left: 840px;
+  display: flex;
+  flex: 0;
+  z-index: 1;
+}
